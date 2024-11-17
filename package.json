@@ -1,20 +1,19 @@
 {
-    "name": "qr-code-app",
-    "version": "1.0.0",
-    "description": "A Progressive Web App for scanning QR codes using a device's camera.",
-    "main": "src/js/app.js",
-    "scripts": {
-      "start": "serve .",
-      "build": "echo 'No build step required.'"
-    },
-    "keywords": ["PWA", "QR Code", "Scanner", "Vercel"],
-    "author": "Your Name",
-    "license": "MIT",
-    "dependencies": {
-      "html5-qrcode": "^2.3.9"
-    },
-    "devDependencies": {
-      "serve": "^14.2.0"
-    }
+  "name": "pwa-qr-reader",
+  "version": "1.0.0",
+  "description": "A Progressive Web App for scanning QR codes using a device's camera.",
+  "main": "src/js/app.js",
+  "scripts": {
+    "start": "serve .",
+    "build": "echo 'No build step required.'"
+  },
+  "keywords": ["PWA", "QR Code", "Scanner", "Vercel"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "qr-scanner": "^1.4.2"
+  },
+  "devDependencies": {
+    "serve": "^14.2.0"
   }
-  
+}
